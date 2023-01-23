@@ -1,0 +1,10 @@
+#reference manuals
+*.pdf
+
+#binaries
+/bin
+/build
+
+#error logs and profiling files
+/prof
+*.dat
