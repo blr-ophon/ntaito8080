@@ -1,6 +1,6 @@
 #ifndef MACHINE_H
 #define MACHINE_H
-#include "./cpu.h"
+#include "cpu.h"
 
 typedef struct machine{
     Cpu8080 cpu;

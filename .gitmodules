@@ -1,0 +1,3 @@
+[submodule "lib/8080nemu"]
+	path = lib/8080nemu
+	url = https://github.com/blr-ophon/8080nemu

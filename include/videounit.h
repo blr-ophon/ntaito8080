@@ -2,8 +2,8 @@
 #define VIDEOUNIT_H
 #include <SDL2/SDL.h>
 #include <stdbool.h>
-#include "./config.h"
-#include "../lib/80SPL/80SPL.h"
+#include "config.h"
+#include "8080nemu.h"
 
 typedef struct videounit{
     SDL_Window *window;

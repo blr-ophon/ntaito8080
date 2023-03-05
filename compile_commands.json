@@ -1,0 +1,82 @@
+[
+  {
+    "arguments": [
+      "/sbin/gcc",
+      "-std=c99",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-I./include",
+      "-I./lib/8080nemu",
+      "-c",
+      "-o",
+      "build/gameinputs.o",
+      "src/gameinputs.c"
+    ],
+    "directory": "/home/myshkin/Downloads/git/ntaito8080",
+    "file": "/home/myshkin/Downloads/git/ntaito8080/src/gameinputs.c",
+    "output": "/home/myshkin/Downloads/git/ntaito8080/build/gameinputs.o"
+  },
+  {
+    "arguments": [
+      "/sbin/gcc",
+      "-std=c99",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-I./include",
+      "-I./lib/8080nemu",
+      "-c",
+      "-o",
+      "build/machine.o",
+      "src/machine.c"
+    ],
+    "directory": "/home/myshkin/Downloads/git/ntaito8080",
+    "file": "/home/myshkin/Downloads/git/ntaito8080/src/machine.c",
+    "output": "/home/myshkin/Downloads/git/ntaito8080/build/machine.o"
+  },
+  {
+    "arguments": [
+      "/sbin/gcc",
+      "-std=c99",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-I./include",
+      "-I./lib/8080nemu",
+      "-c",
+      "-o",
+      "build/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/myshkin/Downloads/git/ntaito8080",
+    "file": "/home/myshkin/Downloads/git/ntaito8080/src/main.c",
+    "output": "/home/myshkin/Downloads/git/ntaito8080/build/main.o"
+  },
+  {
+    "arguments": [
+      "/sbin/gcc",
+      "-std=c99",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-I./include",
+      "-I./lib/8080nemu",
+      "-c",
+      "-o",
+      "build/videounit.o",
+      "src/videounit.c"
+    ],
+    "directory": "/home/myshkin/Downloads/git/ntaito8080",
+    "file": "/home/myshkin/Downloads/git/ntaito8080/src/videounit.c",
+    "output": "/home/myshkin/Downloads/git/ntaito8080/build/videounit.o"
+  }
+]

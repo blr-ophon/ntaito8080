@@ -5,10 +5,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <SDL2/SDL.h>
-#include "../lib/80SPL/80SPL.h"
-#include "./videounit.h"
-#include "./gameinputs.h"
-#include "./config.h"
+#include "8080nemu.h"
+#include "videounit.h"
+#include "gameinputs.h"
+#include "config.h"
 
 
 typedef struct machine{

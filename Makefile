@@ -2,8 +2,8 @@ CC = gcc
 OPT = -O2
 CFLAGS = -std=c99 -g -Wall -Wextra -pedantic $(OPT)
 
-INCLUDES= -I ./include
-LIBRARIES= -L. ./lib/80SPL/lib80SPL.so -lSDL2 
+INCLUDES= -I./include -I./lib/8080nemu
+LIBRARIES= -L. ./lib/8080nemu.so -lSDL2 
 
 CFILES_DIR := ./src
 BUILD_DIR := ./build
