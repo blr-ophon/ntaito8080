@@ -3,7 +3,8 @@ OPT = -O2
 CFLAGS = -std=c99 -g -Wall -Wextra -pedantic $(OPT)
 
 INCLUDES= -I./include -I./lib/8080nemu
-LIBRARIES= -L. ./lib/8080nemu.so -lSDL2 
+LIB8080 := ./lib/8080nemu/8080nemu.so
+LIBRARIES= -L. ${LIB8080} -lSDL2 
 
 CFILES_DIR := ./src
 BUILD_DIR := ./build
@@ -14,9 +15,12 @@ EXEC := ./bin/Ntaito8080
 ARGS := ./roms/invaders.concatenated
 
 
-${EXEC}: ${OBJECTS}
+${EXEC}: ${OBJECTS} ${LIB8080}
 	mkdir -p $(dir $@)
 	$(CC) ${CFLAGS} ${INCLUDES} ${OBJECTS} -o $@ ${LIBRARIES}
+
+${LIB8080}:
+	cd ./lib/8080nemu && make lib
 
 ${BUILD_DIR}/%.o: ${CFILES_DIR}/%.c
 	mkdir -p $(dir $@)

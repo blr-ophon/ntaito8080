@@ -78,5 +78,173 @@
     "directory": "/home/myshkin/Downloads/git/ntaito8080",
     "file": "/home/myshkin/Downloads/git/ntaito8080/src/videounit.c",
     "output": "/home/myshkin/Downloads/git/ntaito8080/build/videounit.o"
+  },
+  {
+    "arguments": [
+      "/sbin/gcc",
+      "-std=c2x",
+      "-fPIC",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-I",
+      "./include",
+      "-c",
+      "-o",
+      "build/cpu.o",
+      "src/cpu.c"
+    ],
+    "directory": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu",
+    "file": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/src/cpu.c",
+    "output": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/build/cpu.o"
+  },
+  {
+    "arguments": [
+      "/sbin/gcc",
+      "-std=c2x",
+      "-fPIC",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-I",
+      "./include",
+      "-c",
+      "-o",
+      "build/flags.o",
+      "src/flags.c"
+    ],
+    "directory": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu",
+    "file": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/src/flags.c",
+    "output": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/build/flags.o"
+  },
+  {
+    "arguments": [
+      "/sbin/gcc",
+      "-std=c2x",
+      "-fPIC",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-I",
+      "./include",
+      "-c",
+      "-o",
+      "build/instructions.o",
+      "src/instructions.c"
+    ],
+    "directory": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu",
+    "file": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/src/instructions.c",
+    "output": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/build/instructions.o"
+  },
+  {
+    "arguments": [
+      "/sbin/gcc",
+      "-std=c2x",
+      "-fPIC",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-I",
+      "./include",
+      "-c",
+      "-o",
+      "build/memory.o",
+      "src/memory.c"
+    ],
+    "directory": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu",
+    "file": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/src/memory.c",
+    "output": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/build/memory.o"
+  },
+  {
+    "arguments": [
+      "/sbin/gcc",
+      "-std=c2x",
+      "-fPIC",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-I",
+      "./include",
+      "-c",
+      "-o",
+      "build/opcodelog.o",
+      "src/opcodelog.c"
+    ],
+    "directory": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu",
+    "file": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/src/opcodelog.c",
+    "output": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/build/opcodelog.o"
+  },
+  {
+    "arguments": [
+      "/sbin/gcc",
+      "-std=c2x",
+      "-fPIC",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-I",
+      "./include",
+      "-c",
+      "-o",
+      "build/registerbank.o",
+      "src/registerbank.c"
+    ],
+    "directory": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu",
+    "file": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/src/registerbank.c",
+    "output": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/build/registerbank.o"
+  },
+  {
+    "arguments": [
+      "/sbin/gcc",
+      "-std=c2x",
+      "-fPIC",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-I",
+      "./include",
+      "-c",
+      "-o",
+      "build/stack.o",
+      "src/stack.c"
+    ],
+    "directory": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu",
+    "file": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/src/stack.c",
+    "output": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/build/stack.o"
+  },
+  {
+    "arguments": [
+      "/sbin/gcc",
+      "-std=c2x",
+      "-fPIC",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-I",
+      "./include",
+      "-c",
+      "-o",
+      "build/test.o",
+      "src/test.c"
+    ],
+    "directory": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu",
+    "file": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/src/test.c",
+    "output": "/home/myshkin/Downloads/git/ntaito8080/lib/8080nemu/build/test.o"
   }
 ]
