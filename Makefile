@@ -20,6 +20,7 @@ ${EXEC}: ${OBJECTS} ${LIB8080}
 	$(CC) ${CFLAGS} ${INCLUDES} ${OBJECTS} -o $@ ${LIBRARIES}
 
 ${LIB8080}:
+	git submodule update --recursive --remote
 	cd ./lib/8080nemu && make lib
 
 ${BUILD_DIR}/%.o: ${CFILES_DIR}/%.c
